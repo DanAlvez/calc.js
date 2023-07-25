@@ -52,7 +52,7 @@ body {
           display: flex;
           align-items: center;
           padding: 0 0 0 1rem;
-          color: rgba(255, 255, 255, 0.5);
+          color: @--complement-color;
           font-size: @--text-size;
         }
       }
@@ -82,6 +82,17 @@ body {
           height: 3rem;
           border-radius: 2rem;
           padding: 0 1rem;
+        }
+        
+        button {
+          background-color: @--complement-color;
+          height: 3rem;
+          border: none;
+          border-radius: 2rem;
+          outline: none;
+          color: @--secondary-color;
+          font-size: @--text-size;
+          font-weight: 500;
         }
       }
     }

@@ -17,17 +17,17 @@
     <main>
       <div class="calculator">
         <div class="res">
-          <p>Resultado</p>
+          <p>Result</p>
         </div>
         <form method="">
           <label for="n1">
             First number
           </label>
-          <input type="number" name="number 1" id="n1">
+          <input type="number" name="number 1" id="n1" required placeholder="0">
           <label for="n2">
             Second number
           </label>
-          <input type="number" name="number 1" id="n1">
+          <input type="number" name="number 1" id="n2" required placeholder="0">
           <label for="op">
             Operator
           </label>
@@ -37,7 +37,7 @@
             <option value="multiplication">*</option>
             <option value="division">/</option>
           </select>
-          <button>Calculate</button>
+          <button type="submit">Calculate</button>
         </form>
       </div>
     </main>
